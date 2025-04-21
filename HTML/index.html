@@ -9,22 +9,29 @@
         <title>Cookbook | Home</title>
     </head>
     <body>
-        <h1>Cookbook</h1>
+        <div class="container-fluid">
+            <h1>Cookbook</h1>
+        </div>
 
-        <section>
-            <h2>About:</h2>
-            <p>I'm Seth! This is my personal cookbook where I store recipes I've tested and enjoyed.</p>
+        <div class="container-fluid text-center">
             <img src="/Assets/profilepicture-compressed.png" alt="a photo of the author">
-        </section>
+            <p>I'm Seth! This is my personal cookbook where I store recipes I've tested and enjoyed.</p>
+        </div>
 
-        <section>
+        <div class="container-fluid text-center">
             <h2>Recipe Index:</h2>
-            <ul>
-                <li><a href="#">Breakfast</a></li>
-                <li><a href="#">Lunch</a></li>
-                <li><a href="/HTML/dinner.html">Dinner</a></li>
-            </ul>
-        </section>
+            <div class="row">
+                <div class="col">
+                    <a href="#">Breakfast</a>
+                </div>
+                <div class="col">
+                    <a href="#">Lunch</a>
+                </div>
+                <div class="col">
+                    <a href="/HTML/dinner.html">Dinner</a>
+                </div>
+            </div>
+        </div>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
     </body>
