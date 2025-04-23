@@ -6,6 +6,25 @@ body {
     margin: 2%;
 }
 
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li {
+    padding: .5rem 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.homeButton {
+    font-size: 24px;
+}
+
 img {
     max-width: 300px;
     max-height: 300px;
